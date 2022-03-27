@@ -6,8 +6,6 @@ using namespace std;
 
 int main(){
 
-
-
     stack<string> s;
 
     s.push("Roy");
@@ -15,7 +13,9 @@ int main(){
     s.push("Amit");
 
 
-    for(int i = 0; i < s.size(); i ++){
+   int n = s.size();
+
+    for(int i = 0; i < n; i ++){
         cout<<s.top()<<endl;
         s.pop();
     }
