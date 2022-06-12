@@ -34,7 +34,7 @@ console.log(containsDuplicate(array1, array2));
 function containsDuplicate(array1, array2) {
   let mapArrayToObject = {};
   for (let i = 0; i < array1.length; i++) {
-    if (!mapArrayToObject[array1]) {
+    if (!mapArrayToObject[array1[i]]) {
       mapArrayToObject[array1[i]] = true;
     }
   }
