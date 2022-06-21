@@ -51,11 +51,9 @@ console.log(containsDuplicate(array1, array2));
 //* Time complexity will be O(n+m)
 */
 
-/*
 //*Javascript in-built function
 function containsDuplicate(array1, array2) {
   return array1.some((item) => array2.includes(item));
 }
 
 console.log(containsDuplicate(array1, array2));
-*/
